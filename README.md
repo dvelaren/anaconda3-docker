@@ -46,6 +46,10 @@ sudo apt install docker-ce
 
 ```bash
 sudo usermod -aG docker ${USER}
+```
+
+Log out and then log in to reflect the new user group changes or execute the following command:
+```bash
 su - ${USER}
 ```
 
