@@ -91,7 +91,7 @@ bash Anaconda3-2019.10-Linux-x86_64.sh
 
 Follow all the instructions and write yes to all.
 
-7. Activate new bash with conda inside Docker container
+7. Activate new bash with conda inside the Docker container
 
 ```bash
 source ~/.bashrc
@@ -114,7 +114,7 @@ Remember the created password to access later the Jupyter notebook.
 
 10. Create a new Docker image based on the recently updated container
 
-Press <kbd>Ctrl</kbd>+<kbd>+D</kbd> to close container, now find the ID of the previously used container:
+Press <kbd>Ctrl</kbd>+<kbd>D</kbd> to close the container, now find the ID of the previously used container:
 ```bash
 docker ps -a
 ```
@@ -134,7 +134,7 @@ docker run -itd --name CONTAINERNAME -p 8888:8888 IMAGENAME /bin/bash -c "/root/
 
 12. Navigate to a browser to http://localhost:8888 and put the previously set password
 
-## Starting or stopping previously used container
+## Starting or stopping the previously used container
 
 To start the previously used container, use:
 ```bash
